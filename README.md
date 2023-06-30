@@ -13,6 +13,9 @@ After dragging the robot base to the wanted position with one hand and scaling a
 ![A recorded trajectory with three events](trajectory_events.jpg)
 This image shows a recorded trajectory with three events
 
+![A recorded trajectory with a spline which was checked for reachability by the IK](red_green_check_points.jpg)
+A recorded trajectory with a spline which was checked for reachability by the IK
+
 
 ### Overview of scripts
 * 
