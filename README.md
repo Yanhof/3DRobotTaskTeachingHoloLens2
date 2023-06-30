@@ -25,7 +25,7 @@ A recorded trajectory with a spline which was checked for reachability by the IK
 * The script MainController handles all the recording of the trajectory and events as well as all the general behaviour (attached at Manager gameobject)
 
 ### How the Unity scene is built up and where to find things
-The main manager can be found as a child of the RecordingTrajectory gameobject. It holds the trajectory as well as the total saved workflow and all the menus. To use the hand menu on the PC go to Menues --> HandMenu and active the gameobject MenuContent. Under the gameobject HandTracking can you find the end effector which will be attached to the user's hand and a holder for the last valid end effector pose. Everything related to ROS can be found under ROS --> MyROS, ROS_Server_Imitation_Old hold a script which can be used to 
+The main manager can be found as a child of the RecordingTrajectory gameobject. It holds the trajectory as well as the total saved workflow and all the menus. To use the hand menu on the PC go to Menues --> HandMenu and active the gameobject MenuContent. Under the gameobject HandTracking can you find the end effector which will be attached to the user's hand and a holder for the last valid end effector pose. Everything related to ROS can be found under ROS --> MyROS, ROS_Server_Imitation_Old hold a script which can be used to simulate the feedback received from ROS using a random check. Finally, under the Robot gameobject is the Franka Research 3 as well as  the base used for positioning placed.
 
 ## Launching ROS host computer
 Launch each of the commands in a new terminal:
