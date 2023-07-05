@@ -1,4 +1,4 @@
-# RobotTaskTeaching3DHoloLens
+# 3DRobotTaskTeachingHoloLens
 
 ## This project uses hand tracking of the HoloLens 2 to attach the end effector to the user's hand and teach a task with it to a robot
 
