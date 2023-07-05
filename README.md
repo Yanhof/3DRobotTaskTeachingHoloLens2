@@ -31,7 +31,8 @@ The main manager can be found as a child of the RecordingTrajectory game object.
 Launch each of the commands in a new terminal:
 1. roslaunch ros_tcp_endpoint endpoint.launch
 2. roslaunch panda_moveit_config demo.launch (you can minimize RViz)
-3. rosrun goal_state_publisher unity
+3. rosrun goal_state_publisher unity (Thanks to <a href="https://github.com/LucasG2001"> LucasG2001  <img src="https://contrib.rocks/image?repo=LucasG2001/Android-APP" width="20" />
+</a>  for coding the file)
    
 ![Setup ROS host computer and HoloLens 2](Setup_additional.png)
 
